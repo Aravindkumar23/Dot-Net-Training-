@@ -1,7 +1,3 @@
 # Ignore bin directory in this project
-Training-Application/console-application/bin
-Training-Application/console-application/obj
-Day-9/EcommerceWebApi/bin
-Day-9/EcommerceWebApi/obj
-Day-9/Ecommerce/bin
-Day-9/Ecommerce/obj
+**/bin/
+**/obj/
