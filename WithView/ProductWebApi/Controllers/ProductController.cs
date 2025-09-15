@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using LogicServices;
 
 namespace ProductWebApi.Controllers;
 
@@ -6,9 +7,17 @@ namespace ProductWebApi.Controllers;
 [Route("[controller]")]
 public class ProductController : ControllerBase
 {
+    private readonly IProductService _productService;
+
+    public ProductController(IProductService productService)
+    {
+        _productService = productService;
+    }
+
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok("Success");
+        var products = _productService.GetAllProducts();
+        return Ok(products);
     }
 }

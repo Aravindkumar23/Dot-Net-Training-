@@ -11,6 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+  <None Include="..\JsonFiles\**">
+    <Link>JsonFiles\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
     <ProjectReference Include="..\ProductServices\ProductServices.csproj" />
   </ItemGroup>
 

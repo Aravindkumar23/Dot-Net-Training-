@@ -1,6 +1,12 @@
+using LogicServices;
+using Repositories;
+using Utility;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProductRepositories, ProductRepositories>();
+builder.Services.AddScoped<IJsonHelperService, JSONHelperService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

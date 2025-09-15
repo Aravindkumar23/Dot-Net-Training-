@@ -21,6 +21,7 @@ public class JSONHelperService : IJsonHelperService
 
     public T LoadFromJsonFile<T>(string filePath)
     {
+        Console.WriteLine($"Loading JSON file from path: {filePath}");
         if (!File.Exists(filePath))
             throw new FileNotFoundException($"JSON file not found: {filePath}");
 
