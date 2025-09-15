@@ -1,0 +1,12 @@
+[
+  { "Id": 1, "Name": "Laptop", "Price": 55000.00 },
+  { "Id": 2, "Name": "Smartphone", "Price": 25000.00 },
+  { "Id": 3, "Name": "Headphones", "Price": 3000.00 },
+  { "Id": 4, "Name": "Monitor", "Price": 12000.00 },
+  { "Id": 5, "Name": "Keyboard", "Price": 1500.00 },
+  { "Id": 6, "Name": "Mouse", "Price": 800.00 },
+  { "Id": 7, "Name": "External HDD", "Price": 4500.00 },
+  { "Id": 8, "Name": "Printer", "Price": 8000.00 },
+  { "Id": 9, "Name": "Router", "Price": 2500.00 },
+  { "Id": 10, "Name": "Webcam", "Price": 2200.00 }
+]
