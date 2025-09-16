@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProductServices\ProductServices.csproj" />
+    <ProjectReference Include="..\ProductEntities\ProductEntities.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
