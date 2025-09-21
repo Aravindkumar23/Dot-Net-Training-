@@ -16,6 +16,7 @@
     <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </None>
     <ProjectReference Include="..\ProductServices\ProductServices.csproj" />
+    <ProjectReference Include="..\Authentication\Authentication.csproj" />
   </ItemGroup>
 
 </Project>
